@@ -1,5 +1,5 @@
 header {
-    background-color: navy;
+    background-color: #FA9C1D;
     padding: 10px;
 }
 
@@ -17,7 +17,7 @@ body {
 
 .navBar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #1A3C4E;
 }
 
 .navBar a {
