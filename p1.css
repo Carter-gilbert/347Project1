@@ -13,16 +13,17 @@ header h1 {
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #1A3C4E;
 }
 
 .navBar {
     overflow: hidden;
-    background-color: #1A3C4E;
+    background-color: white;
 }
 
 .navBar a {
     float: left;
-    color: #f2f2f2;
+    color: #1A3C4E;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -31,8 +32,8 @@ body {
 }
 
 .navBar a.active {
-    background-color: white;
-    color: navy;
+    background-color: #1A3C4E;
+    color: white;
 }
 
 .navBar a:hover {
