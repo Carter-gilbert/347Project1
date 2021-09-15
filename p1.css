@@ -57,7 +57,7 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 628px) {
+@media screen and (max-width: 630px) {
     .navBar a:not(:first-child) {
         display: none;
     }
@@ -67,7 +67,7 @@ body {
     }
 }
 
-@media screen and (max-width: 628px) {
+@media screen and (max-width: 630px) {
     .navBar.responsive {
         position: relative;
     }
