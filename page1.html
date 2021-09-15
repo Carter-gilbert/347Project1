@@ -30,13 +30,28 @@
             width: 20vw;
         }
         
+        @media screen and (max-width: 628px) {
+            .gallery {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 30%;
+            }
+        }
+        
+        @media screen and (max-width: 628px) {
+            .gallery img {
+                width: 40vw;
+            }
+        }
+        
         .gallery .item {
             position: relative;
             overflow: hidden;
         }
         
         .gallery .item img {
-            vertical-align: middle;
+            /* vertical-align: middle; */
         }
         
         .gallery .caption {
@@ -54,6 +69,25 @@
             background: rgba(0, 0, 0, .7);
             color: rgb(255, 255, 255);
             text-align: center;
+        }
+        
+        @media screen and (max-width: 628px) {
+            .gallery .caption {
+                padding: 7px;
+                position: absolute;
+                z-index: 1;
+                bottom: 0;
+                left: 0;
+                width: 40vw;
+                max-height: 100%;
+                overflow: auto;
+                box-sizing: border-box;
+                transition: transform .5s;
+                transform: translateY(100%);
+                background: rgba(0, 0, 0, .7);
+                color: rgb(255, 255, 255);
+                text-align: center;
+            }
         }
         
         .gallery .item:hover .caption {
@@ -79,7 +113,7 @@
         <!-- <a href="page5.html">page5</a> -->
     </div>
 
-    <h1>We are the <span style="color:purple">J</span><span style="color:yellow">M</span><span style="color:purple">U</span> Overwatch Team</h1>
+    <h1>We are the <span style="font-weight:900">JMU</span> Overwatch Team</h1>
 
     <h3>Our Team Has 8 Players, Composed of 2 Tanks, 2 Damage Players, 2 Healers, and 2 Substitutes</h3>
 
