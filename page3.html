@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="p1.css">
+    <script src="p1.js"></script>
     <style>
         a {
             text-decoration: none;
             color: white;
-
         }
-
+        
         h3 {
             text-align: center;
         }
@@ -24,12 +25,15 @@
 </header>
 
 <body>
-    <div class="navBar">
+    <div class="navBar" id="mynavBar">
         <a href="index.html">Home</a>
         <a href="page1.html">Who are we?</a>
         <a href="page2.html">What is Overwatch?</a>
         <a class="active" href="page3.html">Tournaments</a>
         <a href="page4.html">Contact us</a>
+        <a href="javascript:void(0);" class="icon" onclick="hamMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
         <!-- <a href="page5.html">page5</a> -->
     </div>
 
@@ -42,12 +46,10 @@
 
     <br>
     <h1>Check out some of our past Tournaments!</h1>
-    <h3><a
-            href="https://gamebattles.majorleaguegaming.com/x-play/overwatch/tournament/fa20-owcc-preseason-split-1/info">September
+    <h3><a href="https://gamebattles.majorleaguegaming.com/x-play/overwatch/tournament/fa20-owcc-preseason-split-1/info">September
             27th, 2020
             - Overwatch Collegiate Preseason Split 1</a></h3>
-    <h3><a
-            href="https://gamebattles.majorleaguegaming.com/x-play/overwatch/tournament/fa20-owcc-preseason-split-2/info">November
+    <h3><a href="https://gamebattles.majorleaguegaming.com/x-play/overwatch/tournament/fa20-owcc-preseason-split-2/info">November
             1st, 2020
             - Overwatch Collegiate Preseason Split 2</a></h3>
     <h3><a href="https://gamebattles.majorleaguegaming.com/x-play/overwatch/tournament/OWC-Hoco-FA21/info">Febuary
