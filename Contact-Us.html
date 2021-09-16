@@ -8,6 +8,91 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="p1.css">
     <script src="p1.js"></script>
+    <style>
+        h3 {
+            font-size: 20pt;
+            margin-left: 10vw;
+            margin-right: 10vw;
+            text-align: center;
+        }
+        /* SOCIAL MEDIA BUTTONS*/
+        
+        .wrapper {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .wrapper ul {
+            list-style: none;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        .wrapper ul li {
+            width: 75px;
+            height: 75px;
+            line-height: 75px;
+            margin: 0 10px;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 50%;
+            border: 5px solid #D8E2DC;
+            float: left;
+            transition: all 0.5s ease;
+        }
+        
+        .wrapper ul li .fa {
+            color: #D8E2DC;
+            margin-top: 20px;
+            transition: all 0.5s ease;
+        }
+        /* twitter */
+        
+        .wrapper ul li:hover.twitter {
+            border: 5px solid #00aced;
+            box-shadow: 0 0 15px #00aced;
+            transition: all 0.5s ease;
+        }
+        
+        .wrapper ul li:hover .fa-twitter {
+            color: #00aced;
+            text-shadow: 0 0 15px #00aced;
+            transition: all 0.5s ease;
+        }
+        /* google */
+        
+        .wrapper ul li:hover.google {
+            border: 5px solid #dd4b39;
+            box-shadow: 0 0 15px #dd4b39;
+            transition: all 0.5s ease;
+        }
+        
+        .wrapper ul li:hover .fa-google {
+            color: #dd4b39;
+            text-shadow: 0 0 15px #dd4b39;
+            transition: all 0.5s ease;
+        }
+        /* instagram */
+        
+        .wrapper ul li:hover.instagram {
+            border: 5px solid #bc2a8d;
+            box-shadow: 0 0 15px #bc2a8d;
+            transition: all 0.5s ease;
+        }
+        
+        .wrapper ul li:hover .fa-instagram {
+            color: #bc2a8d;
+            text-shadow: 0 0 15px #bc2a8d;
+            transition: all 0.5s ease;
+        }
+        /* END SOCIAL MEDIA BUTTONS */
+        
+        iframe {
+            width: 100vw;
+            max-height: 30vh;
+            margin-top: 5px;
+        }
+    </style>
     <title>Page4</title>
 </head>
 <header>
@@ -25,6 +110,21 @@
             <i class="fa fa-bars"></i>
         </a>
         <!-- <a href="page5.html">page5</a> -->
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.412914067679!2d-78.87811794924518!3d38.43193038175132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b492e69a8ec619%3A0x150a74b50487b506!2sJMU%20X-Labs!5e0!3m2!1sen!2sus!4v1631811632904!5m2!1sen!2sus"
+        width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <h3>Feel free to follow us on social media to stay up to date with JMU Overwatch!</h3>
+
+    <!-- Places social media buttons -->
+    <div class="wrapper">
+        <ul>
+            <li class="twitter"><a href="https://twitter.com/jmuesports?lang=en"><i class="fa fa-twitter fa-2x"
+                        aria-hidden="true"></i></a></li>
+            <li class="google"><a href="https://info.jmu.edu/studentactivities/meet-the-e-sports-orgs/"><i class="fa fa-google fa-2x"
+                        aria-hidden="true"></i></a></li>
+            <li class="instagram"><a href="https://www.instagram.com/jamesmadisonuniversity/?hl=en"><i class="fa fa-instagram fa-2x"
+                        aria-hidden="true"></i></a></li>
+        </ul>
     </div>
 
 </body>
