@@ -13,6 +13,8 @@ header h1 {
 h1 {
     color: white;
     text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 h2 {
@@ -28,6 +30,10 @@ h3 {
         color: white;
         font-size: 25px;
     }
+}
+
+.orange {
+    color: #FA9C1D;
 }
 
 body {
@@ -88,4 +94,26 @@ body {
         display: block;
         text-align: left;
     }
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #FA9C1D;
+    background-color: #1A3C4E;
+    border-top: 2px solid #FA9C1D;
+    margin-top: 25px;
+}
+
+footer>p {
+    margin-left: 5px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content {
+    min-height: calc(100vh - 135px);
 }
