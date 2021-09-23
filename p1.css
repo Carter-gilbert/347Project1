@@ -103,7 +103,8 @@ footer {
     width: 100%;
     color: #FA9C1D;
     background-color: #1A3C4E;
-    border-top: 2px solid #FA9C1D;
+    border-top: 4px solid;
+    border-image: linear-gradient(90deg, #FA9C1D, #1A3C4E) 1;
     margin-top: 25px;
 }
 
